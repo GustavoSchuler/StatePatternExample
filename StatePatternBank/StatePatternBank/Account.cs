@@ -35,8 +35,8 @@ namespace StatePatternBank
         {
             _state.Deposit(amount);
 
-            Console.WriteLine("Deposited {0:C} --- ", amount);
-            Console.WriteLine(" Balance = {0:C}", this.Balance);
+            Console.WriteLine("Depósito {0:C} --- ", amount);
+            Console.WriteLine(" Saldo = {0:C}", this.Balance);
             Console.WriteLine(" Status = {0}",
 
             this.State.GetType().Name);
@@ -49,8 +49,8 @@ namespace StatePatternBank
         {
             _state.Withdraw(amount);
 
-            Console.WriteLine("Withdrew {0:C} --- ", amount);
-            Console.WriteLine(" Balance = {0:C}", this.Balance);
+            Console.WriteLine("Saque {0:C} --- ", amount);
+            Console.WriteLine(" Saldo = {0:C}", this.Balance);
             Console.WriteLine(" Status = {0}\n",
 
             this.State.GetType().Name);
@@ -61,8 +61,8 @@ namespace StatePatternBank
         {
             _state.PayInterest();
 
-            Console.WriteLine("Interest Paid --- ");
-            Console.WriteLine(" Balance = {0:C}", this.Balance);
+            Console.WriteLine("Pagamento de juros --- ");
+            Console.WriteLine(" Saldo = {0:C}", this.Balance);
             Console.WriteLine(" Status = {0}\n",
 
             this.State.GetType().Name);
