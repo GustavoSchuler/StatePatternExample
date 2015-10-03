@@ -1,6 +1,4 @@
-# StatePatternExample #
-
-An example of State Pattern implementation using C#
+# State Pattern #
 
 - Pattern comportamental
 - Permite que um objeto mude seu comportamento conforme o seu estado atual. Parecerá que o objeto mudou sua classe.
